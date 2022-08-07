@@ -1,4 +1,8 @@
 # FetchRewardsProject
 Hey Fetch Rewards, I'm Aaron Miller. I'm a recent graduate from Gonzaga with a Bachelors in Computer Science looking for my first job in the Computer Science field. I have some experience working with machine learning from a Data Science Algorithms course I took Senior year and would love to expand on that knowledge and learn how to apply it in the real world. 
+
+I have experience working in a software development team from my senior project where I worked in a team of three others to create a web application for a company called Medcurity. We spent 9 months working directly with Medcurity to create a web application for teaching HIPAA principles to healthcare employees through a gamified learning environment. Throughout that process, I learned how to work in an agile work environment and meet deadlines which are skills that I believe would help me fit in quickly at Fetch. 
+### Application
+For the assignment, I have a Flask web service that has a home page with a form to fill in variables like the number of rows and columns and the X and Y coordinates for the corner points. After hitting the submit button, the web service will call functions defined in my utils.py file to find all of the equidistant points based on the variables given. Fianlly, it will create a POST request and redirect to a page that displays a 2D array organized by row.
 ### Docker Container
 I've attached a Dockerfile to the repo, but if that doesn't work than you can pull the container I used from docker hub using "docker pull continuumio/anaconda3:2021.11". If you have any issues let me know.
