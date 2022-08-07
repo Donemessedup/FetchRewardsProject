@@ -6,7 +6,7 @@
 ##############################################
 
 from urllib import request
-import utils
+import utils as utils
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
